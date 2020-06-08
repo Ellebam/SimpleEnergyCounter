@@ -14,8 +14,7 @@ public class Driver {
     public static void main(String[] args) {
         Driver driver = new Driver();
         driver.createGui();
-        //this is a testcomment for Github
-        System.out.println("Github");
+
 
     }
 
@@ -26,7 +25,6 @@ public class Driver {
     public double calculateCounterReadingValueMeanForSingleDays(CounterTracking CounterGroup, int ListOfCountersIndex){
         /* this method takes a CounterGroup object and an Index for the ListOfCounters and calculates the Mean of the
         * Values for full days. For better accurracy the Dates are converted into minutes.*/
-        double sumOfCounterReadingValues =0.00;
         double numberOfMinutesBetweenFirstAndLastReading;
         Date firstEntryDate;
         Date lastEntryDate;
